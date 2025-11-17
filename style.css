@@ -42,16 +42,16 @@ header {
 }
 
 .teraki {
-    font-size: 30px;
+    font-size: 22px;
     color: #1d1d1d;
-    margin-left: 50px;
+    margin-left: 40px;
     letter-spacing: 5px;
 }
 
 header nav {
     display: flex;
     justify-content: center;
-    margin-right: 50px;
+    margin-right: 40px;
 }
 
 header ul {
@@ -66,7 +66,7 @@ header ul li {
 
 
 header ul li a {
-    font-size: 30px;
+    font-size: 23px;
     letter-spacing: 6px;
     color: #1d1d1d;
     text-shadow: #a3a2a2 2px 2px 5px;
@@ -83,7 +83,7 @@ header ul li a:hover {
     position: absolute;
     top: 30px;
     right: 40px;
-    width: 60px;
+    width: 50px;
     height: auto;
     z-index: 100;
     cursor: pointer;
@@ -94,11 +94,11 @@ header ul li a:hover {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: -600px;
+    top: -500px;
     right: 0%;
-    width: 400px;
-    height: 400px;
-    border-radius: 100px 0px 100px 100px;
+    width: 300px;
+    height: 350px;
+    border-radius: 80px 0px 80px 80px;
     box-shadow: #6d6d6d 0 0 30px;
     background: #dedee4;
     transition:top 0.6s;
@@ -112,7 +112,7 @@ header ul li a:hover {
     display: block;
     color:#1d1d1d;
     margin: 10px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 /* メイン ビジュアル*/
@@ -139,7 +139,7 @@ header ul li a:hover {
 
 
 .circle {
-    width: 280px;
+    width: 210px;
     height: auto;
     position: absolute;
     top: 13%;
@@ -170,13 +170,13 @@ header ul li a:hover {
 .vijual_left_box {
     position: absolute;
     top: 50%;
-    right: 50px;
+    right: 100px;
     transform: translateY(-50%);
 }
 
 
 h1 {
-    font-size: 75px;
+    font-size: 57px;
     letter-spacing: 12px;
     transform: rotate(-2deg);
     line-height: 0.9;
@@ -243,7 +243,7 @@ h1 {
     background: linear-gradient(to right, #693df5, #6a9ee4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 30px;
+    font-size: 23px;
     letter-spacing: 5px;
     width: 45%;
     animation: kaiten 2.5s ease-out forwards;
@@ -277,7 +277,7 @@ h1 {
 }
 
 .scroll_line {
-    width: 5px;
+    width: 4px;
     height: 130px;
     background: #1d1d1d;
     margin-right: 20px;
@@ -309,7 +309,7 @@ h1 {
 }
 
 .scroll p {
-    font-size: 30px;
+    font-size: 23px;
     letter-spacing: 5px;
 }
 
@@ -378,34 +378,35 @@ h1 {
 }
 
 #about h2 {
-    font-size: 60px;
+    font-size:45px;
     color: #dedee4;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .about_box {
     display: flex;
     justify-content: center;
     gap: 80px;
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 .about_box img {
-    width: 500px;
+    width: 350px;
+    height: auto;
     border-radius: 30px;
 }
 
 .about_p1 {
     color: #dedee4;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 23px;
 }
 
 .about_p2 {
     color: #dedee4;
-    font-size: 30px;
+    font-size: 23px;
     letter-spacing: 5px;
     margin-left: 200px;
 }
@@ -414,10 +415,10 @@ h1 {
     color: #dedee4;
     width: 80%;
     max-width: 700px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     letter-spacing: 5px;
-    margin: 150px auto 0 auto;
+    margin: 120px auto 0 auto;
 }
 
 .about_more {
@@ -425,10 +426,10 @@ h1 {
     justify-content: center;
     align-items: center;
     background: #dedee4;
-    width: 150px;
-    height: 50px;
+    width: 110px;
+    height: 37px;
     margin: 150px 0 0 250px;
-    border-radius: 20px;
+    border-radius: 18px;
     border: #1d1d1d solid 1px;
     box-shadow: #3c3c3c 0px 5px 7px;
     transition: box-shadow 0.8s;
@@ -443,7 +444,7 @@ h1 {
 }
 
 .about_more div {
-    font-size: 30px;
+    font-size: 23px;
     font-weight: 500;
     color: #1d1d1d;
     transform: translateY(0) rotate(0deg);
@@ -506,29 +507,29 @@ h1 {
 }
 
 #work h2 {
-    font-size: 60px;
+    font-size: 45px;
     color: #1d1d1d;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .work_box {
     display: flex;
     justify-content: center;
     gap:60px;
-    margin: 80px auto 0;
+    margin: 60px auto 0;
     box-shadow: #707070 0 0 15px;
     border-radius: 50px;
     padding: 30px 0;
     width: 90%;
-    max-width: 1300px;
+    max-width: 1200px;
     transition: 1s;
 }
 
 .work_box img {
     background: #757575;
     width: 40%;
-    height: 400px;
+    height: 300px;
     border-radius: 30px;
 }
 
@@ -537,23 +538,23 @@ h1 {
 }
 
 .work_text h3 {
-    font-size: 30px;
+    font-size: 23px;
     margin-top: 10px;
 }
 
 .work_text .text_p {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     letter-spacing: 5px;
-    margin-top: 80px;
+    margin-top: 60px;
     word-wrap: break-word; /* 長い単語を折り返す */
     overflow-wrap: break-word;
 
 }
 
 .click {
-    font-size: 40px;
-    margin: 110px 0 0 150px;
+    font-size: 30px;
+    margin: 80px 0 0 150px;
     letter-spacing: 4px;
 }
 
@@ -613,12 +614,12 @@ h1 {
 .view{
     display: block;
     width: fit-content;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
     color: #1d1d1d;
     letter-spacing: 3px;
     text-shadow: #949494 2px 5px 10px;
-    margin: 100px auto 0 auto;
+    margin: 75px auto 0 auto;
     transition: 0.5s;
 }
 
@@ -642,21 +643,21 @@ h1 {
 }
 
 .thank_box{
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 .thank{
-    font-size: 60px;
+    font-size: 45px;
     letter-spacing: 5px;
     font-weight: 500;
     color: #dedee4;
 }
 
 .goran{
-    font-size: 27px;
+    font-size: 20px;
     letter-spacing: 4px;
     color: #dedee4;
-    margin-top:20px;
+    margin-top:15px;
 }
 
 .footer_menu{
@@ -667,10 +668,10 @@ h1 {
 }
 
 .footer_menu li{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    border: #dedee4 solid 3px;
+    border: #dedee4 solid 2px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -680,8 +681,8 @@ h1 {
 
 .footer_menu a{
     color: #dedee4;
-    font-size: 30px;
-    padding: 80px 60px;
+    font-size: 23px;
+    padding: 55px 50px;
     border-radius: 50%;
     transition: 0.5s;
 }
@@ -692,31 +693,31 @@ h1 {
 
 .footer_menu li:hover a{
     color: #1d1d1d;
-    font-size:35px;
+    font-size:26px;
 }
 
 .mail{
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .mail p{
     color: #dedee4;
-    font-size:30px;
-    margin-bottom: 20px;
+    font-size:23px;
+    margin-bottom: 15px;
 }
 
 .mail a{
     color:#dedee4;
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 5px;
-    border-bottom: 3px solid #dedee4;
+    border-bottom: 2px solid #dedee4;
 }
 
 
 .footer_line{
    
     border-top: #dedee4 solid 1px;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .copyright_p{
