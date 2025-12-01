@@ -753,8 +753,9 @@ header ul li {
     margin: 0 0px;
 }
 header ul {
-    gap: 50px;
+    gap: 20px;
     margin-top: 10px;
+    margin-left: 50px;
 }
 
 
@@ -777,29 +778,15 @@ header ul li a {
 }
 
 #menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: -600px;
-    right: 0%;
-    width: 400px;
-    height: 400px;
-    border-radius: 100px 0px 100px 100px;
-    box-shadow: #6d6d6d 0 0 30px;
-    background: #dedee4;
-    transition:top 0.6s;
+    top: -400px;
+    width: 200px;
+    height: 300px;
+    border-radius: 70px 0px 70px 70px;
 }
 
-#menu.show{
-    top:0;
-}
 
 #menu a{
-    display: block;
-    color:#1d1d1d;
-    margin: 10px;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 
@@ -885,6 +872,8 @@ h1 {
 #about {
     border-radius: 50px 50px 0 0;
     padding-top: 1px;
+    height:105vh;
+    top:-5vh;
 }
 
 #about {
@@ -949,8 +938,8 @@ h1 {
 #work {
     border-radius: 50px 50px 0 0;
     position: sticky;
-    top:-150vh;
-    height: 250vh;
+    top:-250vh;
+    height: 350vh;
 }
 
 
