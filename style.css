@@ -490,7 +490,6 @@ h1 {
 
 /* ワーク */
 
-
 #work {
     background: #dedee4;
     height: 210vh;
@@ -534,6 +533,7 @@ h1 {
 
 .work_text {
     width: 40%;
+    color: #1d1d1d;
 }
 
 .work_text h3 {
