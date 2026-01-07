@@ -1,0 +1,423 @@
+.eigo {
+    font-family: "Sour Gummy", sans-serif;
+}
+
+.nihongo {
+    font-family: "M PLUS 1p", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border- box;
+}
+
+body {
+    background: #dedee4;
+}
+
+.fadein {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 1.2s ease-out;
+}
+
+.fadein.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* ヘッダー */
+
+
+.teraki {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: 22px;
+    color: #1d1d1d;
+    letter-spacing: 5px;
+    z-index: 5;
+}
+
+.teraki {
+    position: fixed;
+}
+
+#menu_btn {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    width: 50px;
+    height: auto;
+    z-index: 101;
+    cursor: pointer;
+}
+
+#menu_btn {
+    position: fixed;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -500px;
+    right: 0%;
+    width: 300px;
+    height: 350px;
+    border-radius: 80px 0px 80px 80px;
+    box-shadow: #6d6d6d 0 0 30px;
+    background: #dedee4;
+    transition: top 0.6s;
+    z-index: 100;
+}
+
+#menu {
+    position: fixed;
+}
+
+#menu.show {
+    top: 0;
+}
+
+#menu a {
+    display: block;
+    color: #1d1d1d;
+    margin: 10px;
+    font-size: 30px;
+}
+
+
+/* main */
+
+.box{
+    margin-bottom: 100px;
+}
+
+.top {
+    background: #693df5;
+    height: 600px;
+    border-radius: 0 0 50px 50px;
+    padding-top: 1px;
+}
+
+.top img {
+    display: block;
+    margin: 100px auto;
+    width: 450px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.center {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin: 50px 0;
+}
+
+.center_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-bottom: #1d1d1d solid 1px;
+}
+
+.center_box p {
+    width: 500px;
+    letter-spacing: 3px;
+}
+
+.box_left {
+    color: #6a9ee4;
+    font-size: 17px;
+}
+
+.text_frame {
+    font-size: 17px;
+    color: #6a9ee4;
+    margin: 25px 0;
+}
+
+
+.back {
+    color: #1c1c1c;
+    font-size: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: #1c1c1c solid 1px;
+    box-shadow: #4f4f4f 1px 1px 5px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.back:hover {
+    box-shadow: none;
+    background: #6a9ee4;
+    font-size: 22px;
+}
+
+
+
+/* フッダー */
+
+footer {
+    background: linear-gradient(155deg, #693df5, #6a9ee4);
+    height: 100vh;
+    border-radius: 100px 100px 0 0;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    padding-top: 1px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.thank_box {
+    margin-top: 75px;
+}
+
+.thank {
+    font-size: 45px;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color: #dedee4;
+}
+
+.goran {
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #dedee4;
+    margin-top: 15px;
+}
+
+.footer_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.footer_menu li {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: #dedee4 solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 20px;
+    transition: 0.5s;
+}
+
+.footer_menu a {
+    color: #dedee4;
+    font-size: 23px;
+    padding: 55px 50px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.footer_menu li:hover {
+    background: #dedee4;
+}
+
+.footer_menu li:hover a {
+    color: #1d1d1d;
+    font-size: 26px;
+}
+
+.mail {
+    margin-top: 60px;
+}
+
+.mail p {
+    color: #dedee4;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.mail a {
+    color: #dedee4;
+    font-size: 40px;
+    letter-spacing: 5px;
+    border-bottom: 2px solid #dedee4;
+}
+
+
+.footer_line {
+
+    border-top: #dedee4 solid 1px;
+    margin-top: 60px;
+}
+
+.copyright {
+    color: #dedee4;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .teraki {
+        top: 10px;
+        left: 10px;
+        font-size: 20px;
+    }
+
+
+    #menu_btn {
+        top: 20px;
+        right: 00px;
+        width: 30px;
+    }
+
+
+    #menu {
+        top: -400px;
+        width: 200px;
+        height: 300px;
+        border-radius: 70px 0px 70px 70px;
+    }
+
+    #menu {
+        position: fixed;
+    }
+
+
+    #menu a {
+        font-size: 20px;
+    }
+
+    /* main */
+
+    .top {
+        height: 400px;
+        border-radius: 0 0 20px 20px;
+    }
+
+    .top img {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+    }
+
+    .center {
+        width: 350px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin: 30px 0;
+    }
+
+    .center_box {
+        display: block;
+        padding: 50px 0;
+    }
+
+    .center_box p {
+        width: 100%;
+        letter-spacing: 1px;
+    }
+
+    .box_left {
+        font-size: 17px;
+        margin-bottom: 15px;
+    }
+
+    .text_frame {
+        font-size: 17px;
+        color: #6a9ee4;
+        margin: 25px 0;
+    }
+
+
+    .back {
+        font-size: 15px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .back:hover {
+        font-size: 17px;
+    }
+
+
+    footer {
+        border-radius: 50px 50px 0 0;
+    }
+
+    .thank_box {
+        margin-top: 200px;
+    }
+
+    .thank {
+        font-size: 25px;
+        letter-spacing: 3px;
+    }
+
+    .goran {
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin-top: 15px;
+    }
+
+
+    .footer_menu li {
+        width: 100px;
+        height: 100px;
+        border: #dedee4 solid 1.5px;
+        display: flex;
+        margin: 50px 10px;
+    }
+
+    .footer_menu li:hover a {
+        font-size: 21px;
+    }
+
+    .footer_menu a {
+        font-size: 20px;
+    }
+
+
+    .mail {
+        margin-top: 100px;
+    }
+
+    .mail p {
+        color: #dedee4;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mail a {
+        color: #dedee4;
+        font-size: 20px;
+        letter-spacing: 3px;
+        border-bottom: 2px solid #dedee4;
+    }
+
+    .footer_line {
+        margin-top: 120px;
+    }
+
+
+}
