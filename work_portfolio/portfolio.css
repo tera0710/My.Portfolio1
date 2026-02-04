@@ -279,17 +279,20 @@ footer {
     margin-top: 60px;
 }
 
-.mail p {
+.mail .con{
     color: #dedee4;
-    font-size: 23px;
+    font-size:23px;
     margin-bottom: 15px;
 }
 
-.mail a {
-    color: #dedee4;
+
+.mail .mase{
+    display: inline-block;
+    color:#dedee4;
     font-size: 40px;
     letter-spacing: 5px;
     border-bottom: 2px solid #dedee4;
+    z-index: -1;
 }
 
 
@@ -443,13 +446,13 @@ footer {
         margin-top: 100px;
     }
 
-    .mail p {
+    .mail .con {
         color: #dedee4;
         font-size: 20px;
         margin-bottom: 20px;
     }
 
-    .mail a {
+    .mail .mase{
         color: #dedee4;
         font-size: 20px;
         letter-spacing: 3px;
