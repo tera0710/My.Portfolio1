@@ -31,6 +31,6 @@ const btn = document.getElementById("menu_btn");
 const menu = document.getElementById("menu");
 
 btn.addEventListener("click", () => {
-    menu.classList.toggle("show"); // クラスの付け外しでスライド
+    menu.classList.toggle("show"); 
 });
 

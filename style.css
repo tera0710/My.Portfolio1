@@ -120,13 +120,8 @@ header ul li a:hover {
 
 #main {
     position: relative;
-    /* height: 500vh; */
 }
 
-/* #main section{
-    position: sticky;
-    top:0px;
-} */
 
 #vijual {
     position: relative;
@@ -641,6 +636,7 @@ h1 {
         transform: translateY(0) rotate(0deg);
     }
 }
+
 
 .view {
     display: block;

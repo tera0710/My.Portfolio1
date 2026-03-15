@@ -271,7 +271,6 @@ h1 {
 .about_str {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     gap: 75px;
     position: relative;
     margin: 0 auto;
