@@ -10,20 +10,17 @@ chars.forEach((char, i) => { // ③ 文字ごとに処理
 });
     
 
-const targets = document.querySelectorAll('.fadein');
+const els = document.querySelectorAll('.fadein');
 
-const observer = new IntersectionObserver(entries => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('show');
-      observer.unobserve(entry.target);
+window.addEventListener('scroll', () => {
+  els.forEach(el => {
+    if (el.getBoundingClientRect().top < window.innerHeight*0.7) {
+      el.classList.add('show');
     }
   });
-}, {
-  threshold: 0.3
 });
 
-targets.forEach(el => observer.observe(el));
+
 
 
 

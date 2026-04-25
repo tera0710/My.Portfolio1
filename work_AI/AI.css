@@ -147,6 +147,13 @@ h2 {
     margin: 25px 0;
 }
 
+.site{
+    font-size: 17px;
+    margin: 0 auto 40px auto;
+    display: block;
+    width: 300px;
+}
+
 .pc-frame {
     width: 600px;
     /* 表示したい枠の幅 */
